@@ -187,11 +187,11 @@ This C++ project leverages the SFML library to provide an interactive graphical 
    ```powershell
    g++ -O3 -c *.cpp -I<your-SFML-include-path>
 
-Link the object files and build the executable:
+2. **Link the object files and build the executable:**3
    ```powershell
-  g++ -O3 -o main-app *.o -L<your-SFML-lib-path> -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+   g++ -O3 -o main-app *.o -L<your-SFML-lib-path> -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
-Run the Program (Bash)
-  ```powershell
-  export PATH=$PATH:<your-SFML-bin-path> ./main-app
+4. **Run the Program (Bash):**
+   ```powershell
+   export PATH=$PATH:<your-SFML-bin-path> ./main-app
 
