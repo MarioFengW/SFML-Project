@@ -14,7 +14,7 @@ This C++ project leverages the SFML library to provide an interactive graphical 
 
 ## Features Overview
 
-### 1. Search Algorithms (15% Weight)
+### 1. Search Algorithms
 
 #### Linear Search (Sequential Search)
 - **Description:** Iterates through the array element by element until the target value is found.
@@ -176,3 +176,22 @@ This C++ project leverages the SFML library to provide an interactive graphical 
 
 ## Dependencies
 - **SFML Library:** Facilitates graphical visualization and event handling.
+
+---
+
+## To Execute
+
+### Compilation (PowerShell)
+
+1. **Compile the source files:**
+   ```powershell
+   g++ -O3 -c *.cpp -I<your-SFML-include-path>
+
+Link the object files and build the executable:
+   ```powershell
+  g++ -O3 -o main-app *.o -L<your-SFML-lib-path> -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+
+Run the Program (Bash)
+  ```powershell
+  export PATH=$PATH:<your-SFML-bin-path> ./main-app
+
